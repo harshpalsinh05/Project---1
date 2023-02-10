@@ -242,17 +242,6 @@ header {
     
     transform: rotate(9deg);
 }
-footer{
-    
-    background-color: black;
-}
-.foot{
-    padding-left: 520px;
-    
-    color: #eeeff1;
- 
-    font-weight: 600;
-}
 
 .image img {
     
@@ -262,7 +251,21 @@ footer{
     
     transition: all 2s;
 }
+
 .image img:hover{
  
     width: 600px;
+}
+
+footer{
+    
+    background-color: black;
+}
+
+.foot{
+    padding-left: 520px;
+    
+    color: #eeeff1;
+ 
+    font-weight: 600;
 }
