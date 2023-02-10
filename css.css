@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+body {
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 50px 100px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeeff1;
+    padding: 15px 100px;
+}
+
+.logo {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 14px;
+    padding-right: 14px;
+    color: lightcoral;
+    font-size: 25px;
+    font-weight: 600;
+    animation: h05;
+    border-radius: 10px;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes h05 {
+    0% {
+        background-color: lightgoldenrodyellow;
+        box-shadow: 2px 4px 15px red;
+        color: red
+    }
+
+    25% {
+        box-shadow: 2px 4px 15px rgb(223, 255, 39);
+        background-color: black ;
+        color: rgb(8, 148, 62);
+    }
+
+    50% {
+        box-shadow: 2px 4px 15px rgb(66, 147, 240);
+        background-color: coral;
+        color: rgb(109, 49, 205);
+    }
+
+    75% {
+        box-shadow: 2px 4px 15px rgb(126, 23, 119);
+        background-color: darkturquoise;
+        color: rgb(14, 2, 2);
+    }
+
+    99% {
+        box-shadow: 2px 4px 15px rgb(39, 207, 134);
+        background-color: blue;
+        color: rgb(181, 255, 8);
+    }
+
+    100% {
+        box-shadow: 2px 4px 15px rgb(36, 11, 11);
+        background-color: #00a4ccff;
+        color: orange;
+    }
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar li {
+    position: relative;
+    margin-left: 5px;
+}
+
+.navbar a {
+    font-size: 1rem;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: darkgoldenrod;
+    transition: all 2s ease-in-out ;
+}
+.navbar a:hover{
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    color: darkgoldenrod;
+    background-color: black;
+}
+
+.book {
+    background-color: orangered;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    color: #eeeff1;
+    transition: all 2s ease-in-out 0.1s;
+}
+
+.book:hover {
+    color: black;
+    background-color: rgb(115, 115, 245);
+    transform: scale(1.2);
+}
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-color: lightyellow;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.text h1 {
+    margin-top: 6.4rem;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+.text p {
+    font-size: 1.5rem;
+    margin: 0.5rem 0 1rem;
+}
+
+.store img {
+    width: 330px;
+    cursor: pointer;
+    animation: h2;
+    animation-duration: 4s;
+    transition: all 1s ease-in-out ;
+}
+
+.store img:hover{
+    width: 400px;
+    transform: rotate(9deg);
+}
+
+.image img {
+    width: 800px;
+    height: 100%;
+    transition: all 2s;
+}
+.image img:hover{
+    width: 600px;
+}
