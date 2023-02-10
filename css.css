@@ -255,10 +255,14 @@ footer{
 }
 
 .image img {
+    
     width: 800px;
+    
     height: 100%;
+    
     transition: all 2s;
 }
 .image img:hover{
+ 
     width: 600px;
 }
